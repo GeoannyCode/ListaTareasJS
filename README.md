@@ -8,13 +8,9 @@ https://dgbracero-tarealist.netlify.app/
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [Bootstrap](https://getbootstrap.com/) - El framework web usado en su version 4.6
 
 ## Autor ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Diego Bracero** - *Trabajo Inicial* - [dgbracero](https://github.com/dgbracero)
 
