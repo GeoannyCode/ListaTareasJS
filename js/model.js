@@ -5,10 +5,10 @@ export default class Model{
         if(!this.todos || this.todos.length < 1){
             this.todos = [
                 {
-                    id: 0,
-                    title: 'Learn JS',
-                    description: 'Whatch JS tutorials',
-                    completed: false,
+                    // id: 0,
+                    // title: 'Learn JS',
+                    // description: 'Whatch JS tutorials',
+                    // completed: false,
                 }
             ]
             this.currentId = 1;
@@ -26,7 +26,14 @@ export default class Model{
     }
 
     getTodos(){
-        return this.todos;
+        // const todos = [];
+        // for( const todo of this.todos){
+        //     todos.push({...todo});
+        // }
+        // return todos;
+
+        //+++++++++++++++pero en una sola linea++++++++++++++++
+        return this.todos.map((todo) => ({...todo}));
     }
 
     findTodo(id){
